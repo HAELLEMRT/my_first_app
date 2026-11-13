@@ -1,18 +1,11 @@
-# my_first_app
+# My First App - Lab 1
 
-A new Flutter project.
+## What I learned and what blocked me
 
-## Getting Started
+In this lab, I learned how to set up the Flutter SDK, configure Git, and create my first Flutter application. I learned how to use Hot Reload to instantly see changes to text and theme colors without restarting the app, and I successfully implemented a `debugPrint` to check the screen width. 
 
-This project is a starting point for a Flutter application.
+**What blocked me:** I was unable to run the Android Emulator because my laptop's hardware and Windows 11 had conflicts with the Windows Hypervisor Platform, despite trying multiple BIOS and Windows settings. To complete the lab requirements, I successfully ran the application using Flutter Web in Microsoft Edge. Additionally, I experienced a persistent "Dart compiler exited unexpectedly" error at the end, but I was able to complete all the coding steps and document the remaining `flutter doctor` warnings as permitted by the lab instructions.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-lab 1 completed
+## Submission Details
+*   **Screenshots:** Located in the `/docs` folder.
+*   **Remaining Warnings:** Documented in the `flutter_doctor.png` screenshot (Visual Studio is not installed, which is only required for Windows Desktop apps).
