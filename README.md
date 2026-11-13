@@ -9,3 +9,4 @@ In this lab, I learned how to set up the Flutter SDK, configure Git, and create 
 ## Submission Details
 *   **Screenshots:** Located in the `/docs` folder.
 *   **Remaining Warnings:** Documented in the `flutter_doctor.png` screenshot (Visual Studio is not installed, which is only required for Windows Desktop apps).
+Note: I implemented the screen width code, but the Dart compiler crashed on my machine before it could print the output to the console. A screenshot of the implemented code is included in the docs folder.
