@@ -86,7 +86,7 @@ class _MyHomePageState extends State<MyHomePage> {
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         // Here we take the value from the MyHomePage object that was created by
         // the App.build method, and use it to set our appbar title.
-        title: Text(widget.title),
+        title: const Text('MRT APP'),
       ),
       body: Center(
         // Center is a layout widget. It takes a single child and positions it
@@ -107,8 +107,9 @@ class _MyHomePageState extends State<MyHomePage> {
           // wireframe for each widget.
           mainAxisAlignment: .center,
           children: [
-            const Text('Hello, RAPHAELLE!!'),
+             Text('Hello, RAPHAELLE!!'),
             Text('This is my second text'),
+            Text ('Width: ${MediaQuery.of(context).size.width} dp'),
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,
